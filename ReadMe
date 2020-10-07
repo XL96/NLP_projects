@@ -1,0 +1,12 @@
+This repository contains my mini natural language processing projects.
+
+The purpose of these projects is to get myself familiar with common NLP techniques and practice my coding skills. All programs were developed with Python Standard Library.
+Projects:
+
+name_predictor: A simple rule-based predictor to predict the full names of the first person given a string representing the names of two persons.
+
+lemmatizer: A simple lemmatizer that learns a lemmatization function from an annotated corpus and maps every word form attested in the training data to the most common lemma associated with that form.
+
+naive_bayes: A Naive Bayes Classifier that classifies hotel reviews into 4 categories: positive and truthful, positive and deceptive, negative and truthful, negative and deceptive.
+
+percptron: A program that implements both Vanilla Percptron Classifier and Averaged Perceptron Classifier that classifies hotel reviews into 4 categories: positive and truthful, positive and deceptive, negative and truthful, negative and deceptive.
