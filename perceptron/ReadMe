@@ -1,0 +1,13 @@
+Perceptron classifiers (vanilla and averaged) to identify hotel reviews as either truthful or deceptive, and either positive or negative.
+
+
+The learning program will be invoked in the following way:
+
+> python perceplearn.py /path/to/input
+
+The argument is the directory of the training data; the program will learn perceptron models, and write the model parameters to two files: vanillamodel.txt for the vanilla perceptron, and averagedmodel.txt for the averaged perceptron. 
+
+The classification program will be invoked in the following way:
+
+> python percepclassify.py /path/to/model /path/to/input
+
