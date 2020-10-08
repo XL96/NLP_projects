@@ -1,0 +1,8 @@
+A very simple lemmatizer, which learns a lemmatization function from an annotated corpus. At test time, the program checks if a form is in the lookup table, and if so, it gives the associated lemma; if the form is not in the lookup table, it gives the form itself as the lemma (identity mapping).
+
+Data:
+Three corpus files in universal dependencies format, with the file names indicating whether the file is for development, training, or testing (only the training and testing files will be used in the exercise).
+
+To invoke the program:
+
+> python lookup-lemmatizer.py /path/to/train/data /path/to/test/data
