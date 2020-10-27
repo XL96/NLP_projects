@@ -10,3 +10,5 @@ lemmatizer: A simple lemmatizer that learns a lemmatization function from an ann
 naive_bayes: A Naive Bayes Classifier that classifies hotel reviews into 4 categories: positive and truthful, positive and deceptive, negative and truthful, negative and deceptive.
 
 percptron: A program that implements both Vanilla Percptron Classifier and Averaged Perceptron Classifier that classifies hotel reviews into 4 categories: positive and truthful, positive and deceptive, negative and truthful, negative and deceptive.
+
+hidden_markov_model: A program that implements Hidden Markov Model for Part of Speech Tagging.
